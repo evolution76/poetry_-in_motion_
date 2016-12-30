@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project version="1.0" creator="LMMS" creatorversion="1.1.3" type="song">
+  <head timesig_numerator="4" mastervol="100" timesig_denominator="4" bpm="105" masterpitch="0"/>
+  <song>
+    <trackcontainer width="600" x="5" y="5" maximized="0" height="300" visible="1" type="song" minimized="0">
+      <track muted="0" type="1" name="Beat/Bassline 0" solo="0">
+        <bbtrack>
+          <trackcontainer width="578" x="610" y="5" maximized="0" height="300" visible="1" type="bbtrackcontainer" minimized="0">
+            <track muted="0" type="0" name="kick_soft01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/kick_soft01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="kick_soft01.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="kick_soft01.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="kick_soft02.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/kick_soft02.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="kick_soft02.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="kick_soft02.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="kick04.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/kick04.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="kick04.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="36" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="132" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="kick04.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="hihat_closed01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/hihat_closed01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="hihat_closed01.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="12" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="36" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="60" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="84" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="108" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="132" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="156" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="180" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="hihat_closed01.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="hihat_closed02.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/hihat_closed02.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="hihat_closed02.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="12" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="36" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="60" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="84" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="108" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="132" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="156" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="180" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="hihat_closed02.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="snare01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/snare01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="snare01.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="snare01.ogg" pos="192" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+              </pattern>
+            </track>
+            <track muted="0" type="0" name="snare1.wav" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="Percussion Snares/snare1.wav" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="snare1.wav" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="snare1.wav" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="latin_brass01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="latin/latin_brass01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="latin_brass01.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="latin_brass01.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="breath01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="1" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="misc/breath01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="breath01.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="breath01.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="snaph01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="misc/snaph01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="snaph01.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="72" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="snaph01.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="modsqr.flac" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="waveforms/modsqr.flac" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="modsqr.flac" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="36" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="modsqr.flac" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="scratch01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="1" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="effects/scratch01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="scratch01.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="scratch01.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="techno_synth01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="2" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="basses/techno_synth01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="techno_synth01.ogg" pos="0" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="24" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="84" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="132" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="180" len="-192"/>
+              </pattern>
+              <pattern steps="16" muted="0" type="0" name="techno_synth01.ogg" pos="192" len="192"/>
+            </track>
+            <track muted="0" type="0" name="CoolCrash_02.wav" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="Crashes &amp; Cymbals/CoolCrash_02.wav" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="CoolCrash_02.wav" pos="0" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="CoolCrash_02.wav" pos="192" len="192">
+                <note pan="0" key="57" vol="100" pos="144" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="168" len="-192"/>
+              </pattern>
+            </track>
+            <track muted="0" type="0" name="zap02.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="drums/zap02.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="zap02.ogg" pos="0" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="zap02.ogg" pos="192" len="192">
+                <note pan="0" key="57" vol="100" pos="96" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="108" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="120" len="-192"/>
+              </pattern>
+            </track>
+            <track muted="0" type="0" name="scratch01.ogg" solo="0">
+              <instrumenttrack pan="0" fxch="0" pitchrange="1" pitch="0" basenote="57" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" looped="0" lframe="0" interp="1" eframe="1" stutter="0" sframe="0" src="effects/scratch01.ogg" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elcut lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                  <elres lspd_denominator="4" sustain="0.5" pdel="0" userwavefile="" dec="0.5" lamt="0" syncmode="0" latt="0" rel="0.1" amt="0" x100="0" att="0" lpdel="0" hold="0.5" lshp="0" lspd="0.1" ctlenvamt="0" lspd_numerator="4"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime="100" arprange="1" arptime_denominator="4" syncmode="0" arpmode="0" arp-enabled="0" arp="0" arptime_numerator="4" arpdir="0" arpgate="100"/>
+                <midiport inputcontroller="0" fixedoutputvelocity="-1" inputchannel="0" outputcontroller="0" writable="0" outputchannel="1" fixedinputvelocity="-1" fixedoutputnote="-1" outputprogram="1" basevelocity="63" readable="0"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern steps="16" muted="0" type="0" name="scratch01.ogg" pos="0" len="192"/>
+              <pattern steps="16" muted="0" type="0" name="scratch01.ogg" pos="192" len="192">
+                <note pan="0" key="57" vol="100" pos="0" len="-192"/>
+                <note pan="0" key="57" vol="100" pos="48" len="-192"/>
+              </pattern>
+            </track>
+          </trackcontainer>
+        </bbtrack>
+        <bbtco muted="0" usestyle="1" name="" pos="0" color="4286611584" len="384"/>
+      </track>
+      <track muted="0" type="1" name="Beat/Bassline 1" solo="0">
+        <bbtrack/>
+        <bbtco muted="0" usestyle="1" name="" pos="384" color="4286611584" len="192"/>
+      </track>
+    </trackcontainer>
+    <track muted="0" type="6" name="Automation track" solo="0">
+      <automationtrack/>
+      <automationpattern tens="1" mute="0" prog="0" name="Numerator" pos="0" len="192">
+        <object id="4093706"/>
+      </automationpattern>
+      <automationpattern tens="1" mute="0" prog="0" name="Denominator" pos="0" len="192">
+        <object id="725023"/>
+      </automationpattern>
+      <automationpattern tens="1" mute="0" prog="0" name="Tempo" pos="0" len="192">
+        <object id="4707144"/>
+      </automationpattern>
+      <automationpattern tens="1" mute="0" prog="0" name="Master volume" pos="0" len="192">
+        <object id="3877340"/>
+      </automationpattern>
+      <automationpattern tens="1" mute="0" prog="0" name="Master pitch" pos="0" len="192">
+        <object id="5059599"/>
+      </automationpattern>
+    </track>
+    <fxmixer width="561" x="5" y="310" maximized="0" height="349" visible="1" minimized="0">
+      <fxchannel num="0" muted="0" volume="1" name="Master">
+        <fxchain numofeffects="0" enabled="0"/>
+      </fxchannel>
+      <fxchannel num="1" muted="0" volume="1" name="FX 1">
+        <fxchain numofeffects="1" enabled="1">
+          <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="amplifier" wet="1" on="1">
+            <AmplifierControls right="100" pan="0" left="100" volume="125.2"/>
+            <key/>
+          </effect>
+        </fxchain>
+        <send channel="0" amount="1"/>
+      </fxchannel>
+      <fxchannel num="2" muted="0" volume="1" name="FX 2">
+        <fxchain numofeffects="4" enabled="1">
+          <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="waveshaper" wet="1" on="1">
+            <waveshapercontrols clipInput="0" outputGain="1" waveShape="CtejOwrXIzyPwnU8CtejPM3MzDyPwvU8KVwPPQrXIz3sUTg9zcxMPa5HYT3sUfg+MzPzPgrX4z72KNw+KVzPPhSuxz7UBro+YCy5PnsUrj7D9ag+rkehPlK4nj72KJw+VVWVPm2gkz4pXI8+cT2KPiz5hT5ERIQ+XI+CPnh3dz6nDXQ+16NwPh+Faz5mZmY+rkdhPj0KVz49Clc+hetRPoXrUT6nDbQ+exSuPsP1qD5mZqY+8oulPn6xpD72KJw+mpmZPgAAgD5cj4I+uB6FPhSuhz5xPYo+zcyMPilcjz6F65E+4XqUPj0Klz6amZk+9iicPlK4nj6uR6E+CtejPmZmpj7D9ag+H4WrPnsUrj7Xo7A+MzOzPo/CtT7sUbg+SOG6PqRwvT4AAMA+XI/CPqRwvT6kcL0+MJa8Pry7uz5I4bo+eHe3PgOdtj6PwrU+MzOzPjMzsz4zM7M+16OwPh+Fqz4fhas+w/WoPmZmpj4K16M+IiKiPjptoD7e3Z0+agOdPvYonD72KJw+9iicPia/mD6x5Jc+PQqXPuF6lD5toJM++cWSPoXrkT4pXI8+zcyMPnE9ij5xPYo+FK6HPrgehT64HoU+H4VrP83MbD/NzGw/exRuPylcbz8pXG8/KVxvPylcbz8pXG8/KVxvPylcbz97FG4/exRuP0GnbT8HOm0/H4VrPx+Faz8fhWs/H4VrP8P1aD8Urmc/frFkP0REZD9cj2I/rkdhPwAAYD9SuF4/GEteP97dXT/2KFw/9ihcP4JOWz8OdFo/7FFYP+F6VD8zM1M/exROPx+FSz9xPUo/w/VIP8P1SD8Urkc/w/VIP3E9Sj8fhUs/zcxMP3sUTj8pXE8/16NQP4XrUT8zM1M/4XpUP4/CVT89Clc/7FFYP5qZWT9I4Vo/9ihcP6RwXT9SuF4/AABgP65HYT9cj2I/CtdjP7geZT9mZmY/FK5nP8P1aD9xPWo/H4VrP83MbD97FG4/KVxvP9ejcD+F63E/MzNzP+F6dD+PwnU/PQp3P+xReD+amXk/SOF6P/YofD+kcH0/Urh+PwAAgD8=" inputGain="1"/>
+            <key/>
+          </effect>
+          <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <ladspacontrols link="1" ports="4">
+              <port00 link="1">
+                <data scale_type="log" value="0.2775" id="2369356"/>
+              </port00>
+              <port01 link="1" data="7"/>
+              <port10>
+                <data scale_type="log" value="0.2775" id="5113485"/>
+              </port10>
+              <port11 data="7"/>
+            </ladspacontrols>
+            <key>
+              <attribute value="am_pitchshift_1433" name="file"/>
+              <attribute value="amPitchshift" name="plugin"/>
+            </key>
+          </effect>
+          <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <ladspacontrols link="1" ports="2">
+              <port00 link="1" data="0.5125"/>
+              <port10 data="0.5125"/>
+            </ladspacontrols>
+            <key>
+              <attribute value="alias_1407" name="file"/>
+              <attribute value="alias" name="plugin"/>
+            </key>
+          </effect>
+          <effect autoquit_numerator="4" autoquit_denominator="4" syncmode="0" autoquit="1" gate="0" name="ladspaeffect" wet="1" on="1">
+            <ladspacontrols ports="18">
+              <port04 data="8"/>
+              <port05 data="0"/>
+              <port06 data="0.5"/>
+              <port07 data="0.5"/>
+              <port08 data="0.5"/>
+              <port09 data="0.5"/>
+              <port010 data="0.5"/>
+              <port011 data="0.5"/>
+              <port012 data="0.5"/>
+              <port013 data="0.5"/>
+              <port014 data="0.5"/>
+              <port015 data="0.5"/>
+              <port016 data="0.5"/>
+              <port017 data="0.5"/>
+              <port018 data="0.5"/>
+              <port019 data="0.5"/>
+              <port020 data="0.5"/>
+              <port021 data="0.5"/>
+            </ladspacontrols>
+            <key>
+              <attribute value="vocoder_1337" name="file"/>
+              <attribute value="vocoder-lmms" name="plugin"/>
+            </key>
+          </effect>
+        </fxchain>
+        <send channel="0" amount="1"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView width="258" x="880" y="310" maximized="0" height="154" visible="1" minimized="0"/>
+    <pianoroll width="1079" x="5" y="5" maximized="0" height="480" visible="0" minimized="0"/>
+    <automationeditor width="860" x="5" y="5" maximized="0" height="480" visible="0" minimized="0"/>
+    <projectnotes width="400" x="700" y="10" maximized="0" height="300" visible="0" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#e0e0e0;">Put down your project notes here.</span></p></body></html>]]></projectnotes>
+    <timeline lp1pos="576" lp0pos="0" lpstate="1"/>
+    <controllers/>
+  </song>
+</lmms-project>
